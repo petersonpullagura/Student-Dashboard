@@ -6,9 +6,10 @@ st.set_page_config(
     layout="wide"
 )
 
-html_file = Path("index.html").read_text(encoding="utf-8")
+html_file = Path("index.htm").read_text(encoding="utf-8")
 
 st.components.v1.html(html_file, height=900, scrolling=True)
+
 
 
 
